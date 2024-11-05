@@ -1,0 +1,2 @@
+# Norsk
+Norwegian language hub

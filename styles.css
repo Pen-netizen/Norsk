@@ -1,54 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f0e6e6;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #ffd1dc;
+    color: #5a5a5a;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.subheader {
+    font-style: italic;
+    margin-top: 0;
 }
 
 .gallery-nav {
     display: flex;
-    justify-content: center; /* Center the nav items */
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    gap: 20px; /* Space between items */
-    padding: 40px 0; /* Space above and below the nav */
+    padding: 2rem 0;
+    flex-grow: 1;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
 .nav-item {
-    display: block;
-    width: 150px; /* Set a fixed width for each item */
-    height: 150px; /* Set a fixed height for each item */
-    background-color: #d4a5a5; /* Background color of nav items */
-    color: white; /* Text color */
-    text-align: center;
-    line-height: 150px; /* Center text vertically */
-    text-decoration: none; /* Remove underline from links */
-    font-weight: bold; /* Make text bold */
-    border-radius: 10px; /* Rounded corners */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: #b0e0e6;
+    color: #5a5a5a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .nav-item:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    background-color: #c49393; /* Darker shade on hover */
-}
-
-main {
-    padding: 20px;
-    text-align: center;
+    transform: scale(1.05);
+    background-color: #98d1d9;
 }
 
 footer {
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #ffd1dc;
+    color: #5a5a5a;
     text-align: center;
     padding: 1rem;
+    margin-top: auto;
 }

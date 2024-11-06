@@ -6,24 +6,24 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f7f7f7; /* Light pastel background */
-  color: #333;
+  font-family: 'Press Start 2P', cursive; /* Retro font */
+  background-color: #2e2e2e; /* Dark background */
+  color: #f4a261; /* Warm vintage yellow */
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  font-family: 'Press Start 2P', cursive; /* Retro font for headings */
-  color: #6c5b7b; /* Pastel purple */
+  font-family: 'Press Start 2P', cursive; /* Retro font */
+  color: #e76f51; /* Bold coral */
 }
 
 a {
   text-decoration: none;
-  color: #ff8a65; /* Soft coral */
+  color: #f4a261; /* Warm yellow */
 }
 
 a:hover {
-  color: #6c5b7b; /* Pastel purple on hover */
+  color: #e76f51; /* Coral on hover */
 }
 
 /* Containers and Layout */
@@ -33,7 +33,7 @@ a:hover {
 }
 
 header, footer {
-  background-color: #ffebcd; /* Pastel beige */
+  background-color: #264653; /* Muted teal */
   padding: 20px;
   text-align: center;
 }
@@ -44,7 +44,7 @@ footer {
 
 /* Buttons */
 button {
-  background-color: #6c5b7b; /* Retro purple */
+  background-color: #e76f51; /* Retro coral */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -53,6 +53,5 @@ button {
 }
 
 button:hover {
-  background-color: #ff8a65; /* Coral on hover */
+  background-color: #f4a261; /* Yellow on hover */
 }
-

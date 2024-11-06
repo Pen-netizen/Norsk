@@ -1,22 +1,23 @@
 /* General Background */
 body {
-  background-color: #FFF4E0;
-  color: #8C5E58; /* Text color */
-  font-family: 'Roboto', sans-serif; /* You can adjust the font family */
+  background-color: #FAF3DD; /* Creamy beige background */
+  color: #3D5A80; /* Deep teal text color for a retro, readable contrast */
+  font-family: 'Montserrat', sans-serif; /* Retro-inspired font, if possible */
 }
 
 /* Header */
 header {
-  background-color: #A8D5BA;
-  color: #8C5E58; /* Adjust text color for good contrast */
+  background-color: #B8D8BA; /* Mint green for a refreshing header */
+  color: #3D5A80; /* Deep teal text color */
   padding: 20px;
   text-align: center;
+  border-bottom: 2px solid #FFD166; /* Golden mustard border for a retro accent */
 }
 
 /* Buttons */
 button {
-  background-color: #FFB385;
-  color: #FFF4E0;
+  background-color: #FF6F59; /* Muted coral for a vibrant button color */
+  color: #FAF3DD; /* Creamy beige text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -25,25 +26,37 @@ button {
 }
 
 button:hover {
-  background-color: #E29578;
+  background-color: #FFD166; /* Golden mustard on hover */
 }
 
 /* Links */
 a {
-  color: #E29578;
+  color: #FFB5A7; /* Soft blush for links */
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #F7E1A0;
+  color: #FF6F59; /* Muted coral on hover */
 }
 
 /* Footer */
 footer {
-  background-color: #A8D5BA;
-  color: #8C5E58;
+  background-color: #B8D8BA; /* Mint green footer */
+  color: #3D5A80; /* Deep teal text */
   padding: 10px;
   text-align: center;
+  border-top: 2px solid #FFD166; /* Retro border accent */
 }
 
-/* Additional styling as needed */
+/* Additional Styling */
+h1, h2, h3 {
+  color: #3D5A80; /* Consistent deep teal for headings */
+}
+
+blockquote {
+  background-color: #FFD166; /* Highlighted mustard blockquote */
+  color: #3D5A80; /* Deep teal text */
+  padding: 15px;
+  border-left: 5px solid #FF6F59; /* Coral accent border */
+}

@@ -1,57 +1,61 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Load the custom font */
+@font-face {
+  font-family: 'Accidental Presidency';
+  src: url('assets/fonts/accid___.ttf') format('truetype');
 }
 
 body {
-  font-family: 'Raleway', sans-serif; /* Clean retro font */
-  background-color: #f9f5eb; /* Light beige */
-  color: #d87d3a; /* Warm burnt orange */
+  font-family: 'Accidental Presidency', sans-serif;
+  background-color: #F6F4D2; /* Light cream */
+  color: #A44A3F; /* Deep red */
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
-  font-family: 'Bangers', cursive; /* Retro comic-style font */
-  color: #2a9d8f; /* Soft teal */
+  font-family: 'Accidental Presidency', cursive;
+  color: #F19C79; /* Muted orange */
 }
 
 a {
   text-decoration: none;
-  color: #2a9d8f; /* Soft teal */
+  color: #D4E09B; /* Soft green */
 }
 
 a:hover {
-  color: #e76f51; /* Coral on hover */
+  color: #F19C79; /* Muted orange on hover */
 }
 
-/* Containers and Layout */
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
-header, footer {
-  background-color: #264653; /* Muted teal */
-  padding: 20px;
+header {
+  background-color: #CBDCBD; /* Pale green */
+  padding: 40px 20px;
   text-align: center;
+  border-bottom: 2px solid #F19C79;
 }
 
 footer {
-  margin-top: 50px;
+  background-color: #CBDCBD;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-/* Buttons */
 button {
-  background-color: #2a9d8f; /* Soft teal */
+  background-color: #A44A3F;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
+  font-family: 'Accidental Presidency', cursive;
 }
 
 button:hover {
-  background-color: #e76f51; /* Coral on hover */
+  background-color: #F19C79; /* Muted orange on hover */
 }

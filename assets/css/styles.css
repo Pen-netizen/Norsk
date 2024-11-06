@@ -1,1 +1,58 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* Light pastel background */
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive; /* Retro font for headings */
+  color: #6c5b7b; /* Pastel purple */
+}
+
+a {
+  text-decoration: none;
+  color: #ff8a65; /* Soft coral */
+}
+
+a:hover {
+  color: #6c5b7b; /* Pastel purple on hover */
+}
+
+/* Containers and Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #ffebcd; /* Pastel beige */
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/* Buttons */
+button {
+  background-color: #6c5b7b; /* Retro purple */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff8a65; /* Coral on hover */
+}
 

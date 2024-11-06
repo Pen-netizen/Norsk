@@ -6,20 +6,20 @@
 }
 
 body {
-  font-family: 'Press Start 2P', cursive; /* Retro font */
-  background-color: #2e2e2e; /* Dark background */
-  color: #f4a261; /* Warm vintage yellow */
+  font-family: 'Raleway', sans-serif; /* Clean retro font */
+  background-color: #f9f5eb; /* Light beige */
+  color: #d87d3a; /* Warm burnt orange */
   line-height: 1.6;
 }
 
 h1, h2, h3 {
-  font-family: 'Press Start 2P', cursive; /* Retro font */
-  color: #e76f51; /* Bold coral */
+  font-family: 'Bangers', cursive; /* Retro comic-style font */
+  color: #2a9d8f; /* Soft teal */
 }
 
 a {
   text-decoration: none;
-  color: #f4a261; /* Warm yellow */
+  color: #2a9d8f; /* Soft teal */
 }
 
 a:hover {
@@ -44,7 +44,7 @@ footer {
 
 /* Buttons */
 button {
-  background-color: #e76f51; /* Retro coral */
+  background-color: #2a9d8f; /* Soft teal */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -53,5 +53,5 @@ button {
 }
 
 button:hover {
-  background-color: #f4a261; /* Yellow on hover */
+  background-color: #e76f51; /* Coral on hover */
 }
